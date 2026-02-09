@@ -1,0 +1,5 @@
+hours = 2
+#since there are 60 minutes in and hour with 60 seconds in each minute, there would be 3600 seconds in an hour, we can calculate the number of seconds by multiplying the number of hours by 3600
+seconds = hours * 3600
+
+print(f"{hours} hour(s) is {seconds} seconds.")
