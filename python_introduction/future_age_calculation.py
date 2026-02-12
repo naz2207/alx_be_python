@@ -1,5 +1,3 @@
-
-
 # Prompt user for their current age
 current_age = int(input("How old are you? "))
 
