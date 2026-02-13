@@ -1,6 +1,6 @@
 #prompt the user for the number1 and 2
 # Prompt user for a number
-number = int(input("Enter a number to see its multiplication table:"))
+number = int(input("Enter a number to see its multiplication table: "))
 
 # Generate multiplication table from 1 to 10
 for i in range(1, 11):
