@@ -12,9 +12,7 @@ match priority:
     case _: 
         print("Invalid priority level entered.")    
 if time_bound.lower() == "yes":
-    deadline = input("Please enter the deadline for the task (e.g., 'by 5 PM today'): ")
-    print(f"Note: This task is time-bound and should be completed {deadline}.")
+    print(f"Note: This task is  that requires immediate attention today!")
 else:
     print("This task is not time-bound.")
     
-        
