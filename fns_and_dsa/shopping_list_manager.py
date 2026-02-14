@@ -1,5 +1,11 @@
 #this function is to take a shopping list from the user ,allow edit,remove and display the list
 shopping_list = []
+def display_menu():
+    print("Shopping List Manager")
+    print("1. Add Item")
+    print("2. Remove Item")
+    print("3. View List")
+    print("4. Exit")
 def add_item(item):
     shopping_list.append(item)
     print(f"{item} added to the shopping list.")
